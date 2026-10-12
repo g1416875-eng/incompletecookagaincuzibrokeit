@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_virtual_controller_util",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_virtual_controller_util",
+  "parent":{
+    "name":"mobilecontrols",
+    "path":"folders/Scripts/mobilecontrols.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

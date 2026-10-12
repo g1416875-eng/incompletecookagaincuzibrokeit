@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"init_vkey_globals",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"init_vkey_globals",
+  "parent":{
+    "name":"mobilecontrols",
+    "path":"folders/Scripts/mobilecontrols.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

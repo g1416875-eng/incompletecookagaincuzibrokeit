@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gm_version_check",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gm_version_check",
+  "parent":{
+    "name":"mobilecontrols",
+    "path":"folders/Scripts/mobilecontrols.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

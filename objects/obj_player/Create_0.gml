@@ -106,11 +106,11 @@ make_loop_sound = function(_state, _sound, _func = noone, _looppoints = noone, _
 }
 
 loop_sounds = {
-	mach1: new make_loop_sound(states.mach2, sfx_mach1, function() { return obj_player.sprite_index == spr_player_mach1;}),
-	mach2: new make_loop_sound(states.mach2, sfx_mach2, function() { return obj_player.sprite_index == spr_player_mach2;}),
-	mach3: new make_loop_sound(states.mach3, sfx_mach3, function() { return obj_player.sprite_index != spr_player_crazyrun;}),
-	mach4: new make_loop_sound(states.mach3, sfx_mach4, function() { return obj_player.sprite_index == spr_player_crazyrun;}),
-	climbwall: new make_loop_sound(states.climbwall, sfx_mach2),
+	mach1: new make_loop_sound(states.mach2, sfx_mach1snd, function() { return obj_player.sprite_index == spr_player_mach1;}),
+	mach2: new make_loop_sound(states.mach2, sfx_mach2snd, function() { return obj_player.sprite_index == spr_player_mach2;}),
+	mach3: new make_loop_sound(states.mach3, sfx_mach3snd, function() { return obj_player.sprite_index != spr_player_crazyrun;}),
+	mach4: new make_loop_sound(states.mach3, sfx_mach4snd, function() { return obj_player.sprite_index == spr_player_crazyrun;}),
+	climbwall: new make_loop_sound(states.climbwall, sfx_mach2snd),
 	groundpound: new make_loop_sound(states.groundpound, sfx_groundpoundloop),
 	piledriver: new make_loop_sound(states.piledriver, sfx_groundpoundloop, function() { return obj_player.sprite_index != spr_player_piledriverland}),
 	superjumphold: new make_loop_sound(states.superjump, sfx_superjumphold, function() { return obj_player.sprite_index != spr_player_superjump && obj_player.sprite_index != spr_player_Sjumpcancelstart && obj_player.sprite_index != spr_player_presentboxspring}, 

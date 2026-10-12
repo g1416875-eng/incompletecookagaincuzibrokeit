@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_create_default_button",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_create_default_button",
+  "parent":{
+    "name":"mobilecontrols",
+    "path":"folders/Scripts/mobilecontrols.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

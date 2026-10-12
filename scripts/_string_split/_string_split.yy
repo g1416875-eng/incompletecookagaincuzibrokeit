@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"_string_split",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_string_split",
+  "parent":{
+    "name":"compatibility",
+    "path":"folders/Scripts/mobilecontrols/compatibility.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

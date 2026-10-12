@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Credit_Big_Controls",
+  "name":"Credit_Big_Controls",
+  "parent":{
+    "name":"default",
+    "path":"folders/Sprites/mobilecontrols/default.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
