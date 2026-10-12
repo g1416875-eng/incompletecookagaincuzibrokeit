@@ -102,7 +102,7 @@ if (y > room_height + 300 || y < -800) && !place_meeting(x, y, obj_vhallway) && 
 	state = states.actor
 	hsp = 0
 	vsp = 0
-	sprite_index = spr_player_idle
+	sprite_index = spr_idle
 }
 
 if intransfo || state == states.fireass

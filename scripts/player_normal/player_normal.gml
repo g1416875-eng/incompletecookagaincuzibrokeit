@@ -1,6 +1,6 @@
 function player_normal()
 {
-	var default_idle = spr_player_idle
+	var default_idle = spr_idle
 	var default_move = spr_player_move
 	var default_jump = spr_player_jump
 	var default_fall = spr_player_fall
@@ -72,12 +72,12 @@ function player_normal()
 	hsp = P_MOVE * movespeed
 	
 	var idlegestures = [
-		spr_player_idlefrown, 
-		spr_player_idledance, 
-		spr_player_idlehand, 
-		spr_player_idlecareless, 
-		spr_player_idlewhat,
-		spr_player_idlebite
+		spr_idlefrown, 
+		spr_idledance, 
+		spr_idlehand, 
+		spr_idlecareless, 
+		spr_idlewhat,
+		spr_idlebite
 	]
 	
 	if P_MOVE != 0

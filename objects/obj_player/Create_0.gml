@@ -6,6 +6,7 @@
 #macro CROUCHHELD ((input_check(INPUTS.down) || gamepad_axis_value(global.pad_device, gp_axislv) >= max(0.8 - global.option_dzcrouchwalk, 0.01)) && GPOUNDDIR)
 
 collide_init()
+scr_playerspriotes()
 
 #region Player States
 

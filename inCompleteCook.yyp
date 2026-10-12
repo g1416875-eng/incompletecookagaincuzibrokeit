@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"CompleteCook",
+  "%Name":"inCompleteCook",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMAudioGroup":"v1","%Name":"ag_music","exportDir":"","name":"ag_music","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -116,7 +116,7 @@
   "MetaData":{
     "IDEVersion":"2026.0.0.16",
   },
-  "name":"CompleteCook",
+  "name":"inCompleteCook",
   "resources":[
     {"id":{"name":"gameframe_native","path":"extensions/gameframe_native/gameframe_native.yy",},},
     {"id":{"name":"fnt_caption","path":"fonts/fnt_caption/fnt_caption.yy",},},
@@ -357,6 +357,7 @@
     {"id":{"name":"player_tumble","path":"scripts/player_tumble/player_tumble.yy",},},
     {"id":{"name":"player_util","path":"scripts/player_util/player_util.yy",},},
     {"id":{"name":"scr_pattern_utilities","path":"scripts/scr_pattern_utilities/scr_pattern_utilities.yy",},},
+    {"id":{"name":"scr_playerspriotes","path":"scripts/scr_playerspriotes/scr_playerspriotes.yy",},},
     {"id":{"name":"scr_retro_pal_swapper_utilities","path":"scripts/scr_retro_pal_swapper_utilities/scr_retro_pal_swapper_utilities.yy",},},
     {"id":{"name":"scr_retro_pal_swapper","path":"scripts/scr_retro_pal_swapper/scr_retro_pal_swapper.yy",},},
     {"id":{"name":"shell_commands","path":"scripts/shell_commands/shell_commands.yy",},},

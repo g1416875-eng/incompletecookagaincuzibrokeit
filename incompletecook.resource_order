@@ -302,6 +302,7 @@
     {"name":"player_tumble","order":4,"path":"scripts/player_tumble/player_tumble.yy",},
     {"name":"player_util","order":5,"path":"scripts/player_util/player_util.yy",},
     {"name":"scr_pattern_utilities","order":4,"path":"scripts/scr_pattern_utilities/scr_pattern_utilities.yy",},
+    {"name":"scr_playerspriotes","order":18,"path":"scripts/scr_playerspriotes/scr_playerspriotes.yy",},
     {"name":"scr_retro_pal_swapper_utilities","order":1,"path":"scripts/scr_retro_pal_swapper_utilities/scr_retro_pal_swapper_utilities.yy",},
     {"name":"shell_commands","order":10,"path":"scripts/shell_commands/shell_commands.yy",},
     {"name":"sound_util","order":9,"path":"scripts/sound_util/sound_util.yy",},
