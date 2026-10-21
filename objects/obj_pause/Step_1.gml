@@ -25,6 +25,10 @@ if (input_check_pressed(INPUTS.ui_start) && !pause) || (((optionselected == 0 &&
 		instance_activate_object(obj_screensizer)
 		instance_activate_object(obj_shakytext)
 		instance_activate_object(obj_inputhandler)
+		instance_activate_object(obj_virtual_controller)
+		instance_activate_object(obj_virtual_controller_edit_ui)
+		instance_activate_object(obj_virtual_controller_manager)
+		instance_activate_object(obj_virtual_controller_scale)
 		if global.option_timerspeedrun
 			instance_activate_object(obj_timer)
 		audio_pause_all()
