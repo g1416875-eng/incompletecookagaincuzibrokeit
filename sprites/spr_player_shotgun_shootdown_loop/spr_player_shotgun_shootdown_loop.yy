@@ -27,7 +27,7 @@
   "origin":9,
   "parent":{
     "name":"Shotgun",
-    "path":"folders/Sprites/Player/Shotgun.yy",
+    "path":"folders/Sprites/Player/peppino/Shotgun.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

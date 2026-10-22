@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Player",
-    "path":"folders/Sprites/Player.yy",
+    "name":"peppino",
+    "path":"folders/Sprites/Player/peppino.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

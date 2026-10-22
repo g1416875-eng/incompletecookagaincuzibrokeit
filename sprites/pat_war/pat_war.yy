@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Clothes",
-    "path":"folders/Sprites/Player/Clothes.yy",
+    "name":"pattern",
+    "path":"folders/Sprites/Player/Clothes/pattern.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

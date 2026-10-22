@@ -8,6 +8,21 @@
 collide_init()
 scr_playerspriotes()
 
+enum chars
+{
+	peppino,
+	noise,
+	jack,
+	loco,
+	pizzele,
+	floquoise,
+	bonoise,
+	gumoise,
+	madeo,
+	bob,
+	ballman
+	}
+
 #region Player States
 
 player_states = [];

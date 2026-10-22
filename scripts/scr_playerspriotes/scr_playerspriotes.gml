@@ -14,4 +14,13 @@ sfx_mach1snd = sfx_mach1
 sfx_mach2snd = sfx_mach2
 sfx_mach3snd = sfx_mach3
 sfx_mach4snd = sfx_mach4
+
+spr_palette = pal_peppino
+patterncolor = pal_peppatterncolors
+
+pizza = mu_pizzatime
+lap = mu_lap2
+johntitle = mu_title_john
+entrance = mu_entrance
+secretentrance = mu_entrance_secret
 }
