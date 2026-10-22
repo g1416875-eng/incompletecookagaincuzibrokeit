@@ -1,3 +1,13 @@
+
+if char = chars.peppino
+{
+spr_idle = spr_player_idle
+}
+else if char = chars.jack
+{
+spr_idle = spr_idle_jack
+}
+
 if !pausestopframe
 {	
 	input_buffers.grab = max(input_buffers.grab - 1, 0)
@@ -189,6 +199,7 @@ if supertauntcount >= 10
 	}
 }
 
+
 uparrow.visible = state == states.normal &&
 	(place_meeting(x, y, obj_dresser) ||
 	(scr_can_enter_door(state) &&
@@ -202,3 +213,4 @@ if (state == states.mach3 || state == states.mach2 || state == states.tumble)
 	railmovespeed = approach(railmovespeed, 0, 0.1);
 else
 	railmovespeed = approach(railmovespeed, 0, 0.5);
+	

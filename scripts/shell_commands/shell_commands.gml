@@ -35,6 +35,45 @@ function meta_panic() {
 	}
 }
 
+function sh_switch_char (args) {
+	
+	if (args[1] == "noise")
+		with obj_player
+		{
+			char = chars.noise
+		}
+		
+	if (args[1] == "peppino")
+		with obj_player
+		{
+			char = chars.peppino
+		}
+		
+	if (args[1] == "bo noise")
+		with obj_player
+		{
+			char = chars.bonoise
+		}
+		
+	if (args[1] == "jack clock house")
+		with obj_player
+		{
+			char = chars.jack
+		}
+}
+
+function meta_switch_char() {
+	return {
+		description: "changes character",
+		arguments: ["player"],
+		suggestions: [
+			["peppino", "noise", "bo noise", "jack clock house"]
+		],
+		hidden: false,
+		deferred: false
+	}
+}
+
 function sh_noclip (args) {
 	obj_player.state = states.noclip
 }
